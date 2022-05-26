@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(228, 233, 250);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media screen and (mid-width:600px){
+    body{
+        background-image: url('images/pattern-background-mobile.svg');
+    }
+}
+
+.box{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    width: 350px;
+    margin: 10px auto;
+    border-radius: 15px;
+    box-shadow: 0px 10px 25px rgb(189, 189, 189);
+}
+#TopImage{
+    height: 160px;
+    width: 350px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+h1{
+    font-weight: 900;
+    color: rgb(11, 11, 70);
+    margin: 15px auto 5px;
+    padding: 10px 15px 0px 15px;
+}
+.p1{
+    font-size: 16px;
+    color: rgb(152, 152, 170);
+    font-weight: 500;
+    margin: 5px 13px;
+    padding: 5px 15px 5px 15px ;
+}
+.box2{
+    background-color: rgb(239, 252, 250);
+    margin: 15px 30px 0px;
+    border-radius: 15px;
+    height: 60px;
+    padding: 10px;  
+}
+.music-icon{
+    margin-top: 10px;
+    height: 50px;
+    width: 50px; 
+}
+.box3{
+    display: inline-block;
+    margin:10px 0 0 10px ;
+}
+.annual-plan{
+    font-weight: 900;
+    color: rgb(11, 11, 70);
+    padding: 0 auto 20px ;
+    padding-bottom: 5px;
+}
+.money{
+    color: rgb(152, 152, 170);
+}
+.Change{
+    font-weight: 900;
+    color: rgb(24, 53, 214);
+    text-decoration: underline;
+    float: right;
+    margin: 20px 10px 20px 40px;
+}
+.Change:hover {
+    text-decoration: none;
+    color: rgb(122, 70, 245);
+}
+.box4{
+    background-color: rgb(24, 53, 214);
+    margin: 30px 30px;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgb(188, 190, 190);
+}
+.box4:hover{
+    background-color: rgb(122, 70, 245);
+}
+.payment{
+    color: rgb(239, 252, 250);
+    font-weight: 700;
+    padding: 10px;
+    font-size: 14px;
+}
+.cancel-order{
+    color: rgb(152, 152, 170);
+    font-weight: 900;
+    font-size: 14px;
+}
+.cancel-order:hover{
+    color: rgb(11, 11, 70);
+}
